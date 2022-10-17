@@ -1,4 +1,4 @@
-#include main.h
+#include "main.h"
 /**
  * handle_print - Prints an argument based on its type
  * @fmt: Formatted string in which to print the arguments.
@@ -30,9 +30,9 @@ if (fmt_types[i].fmt == '\0')
 {
 if (fmt[*ind] == '\0')
 return (-1);
-unknow_len += write(1, % %, 1);
+unknow_len += write(1, "%%", 1);
 if (fmt[*ind - 1] == ' ')
-unknow_len += write(1,, 1);
+unknow_len += write(1, " ", 1);
 else if (width)
 {
 --(*ind);
