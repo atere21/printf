@@ -1,7 +1,7 @@
 
-# _printf 
+# printf 
 
-_printf is a custom implementation of the C programming function printf. This project is an application of the C programming knowledge that Holberton School cohort 3 students have learned since starting the program on May 1, 2017.
+printf is a custom implementation of the C programming function printf. This project is an application of the C programming knowledge that Holberton School cohort 3 students have learned since starting the program on May 1, 2017.
 
 ## Prototype: int _printf(const char *, ...);
 
@@ -37,3 +37,4 @@ va_start (man 3 va_start)
 va_end (man 3 va_end)
 va_copy (man 3 va_copy)
 va_arg (man 3 va_arg)
+## ✍️ Author: Oluwatosin Atere and Emmanuel Jesuloba
